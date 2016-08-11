@@ -1,0 +1,852 @@
+body {
+
+    background-color: #525659;
+    font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+html, body {
+    min-height: 100%;
+}
+/*Navbar CSS*/ 
+
+.content-wrap{
+   background-color: #525659; 
+}
+
+
+
+#banner_home{
+    padding: 0;
+    height:100vh;
+    background-color: #FFFBE5;
+}
+
+#banner_img{
+display: block;
+    width: 80%;
+      height: 100%;
+    margin: auto;
+}
+
+    #banner_img_mobile{
+        display: none;
+}
+
+#banner_home_div{
+      padding: 0;
+    height:100vh;
+    background-color: #FFFCF0;  
+}
+
+
+
+
+#logo1{
+    color: #00A651;
+    font-size: 20px;
+}
+#logo2{
+    font-size: 72px;
+    color: #00A651;
+
+}
+.banner_headline_2{
+    font-family: Roboto, sans-serif;
+    color: #8199A4;
+}
+
+.banner_link,.banner_link:hover{
+        position: absolute;
+    bottom: 0px;
+    right: 50%;
+    transform: translateX(50%);
+    color: #00A650;
+}
+
+
+
+/* Vision section css */
+#vision_div{
+        background-color: #DCDDDE;
+/*    background-color: #FFFEF2;*/
+/*    margin: 16px auto;*/
+/*
+      background-image: url(../images/svg/trademark.svg);
+    background-repeat: no-repeat;
+*/
+}
+
+#vision_heading{
+
+     font-family: 'Arima Madurai', cursive;
+    font-weight: 300;
+    text-transform: uppercase;
+   color: #00A651; 
+   font-size:24px; 
+   text-align: center;
+}
+
+.vision_desc{
+/*
+     background-color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18); 
+*/
+    padding: 16px;
+    padding-top: 56px;
+    margin-top:  16px;
+    
+}
+
+#vision_img_div{
+/*    padding: 16px;   */
+    font-family: Roboto, sans-serif;
+}
+
+.vision_img{
+    display: block;
+    margin: auto;
+}
+
+.vision_desc_para{
+    text-align: justify;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 400;
+    font-size: 16px;
+}
+
+/* End of vision section css */
+
+/* About section CSS */
+
+#aboutus_div{
+     background-color: #DCDDDE;
+     font-family: Roboto, sans-serif;
+}
+
+
+#aboutus_desc_div{
+    padding: 16px;
+    color:  rgba(0, 0, 0, 0.87);
+}
+
+#about_heading{
+    font-family: 'Arima Madurai', cursive;
+    text-transform: uppercase;
+    color: #00A651; 
+    font-size:24px; 
+    text-align: center;
+}
+.aboutus_img{
+    display: block;
+    margin:16px auto;
+}
+
+
+#about_para1{
+    text-align: justify; 
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+}
+
+
+/* End of about section css */
+
+
+/* Css for Our Benchmark */
+#our_benchmark_div{
+        background-color: #DCDDDE; 
+       font-family: 'Droid Serif', serif;
+}
+
+.ben_heading,.ben_para{
+    font-family: 'Droid Serif', serif;
+}
+
+#our_benchmark_heading{
+font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;
+   font-family: 'Droid Serif', serif;
+}
+
+#our_benchmark_subheading{
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    color:  rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+}
+
+.benchmark_pro_div{
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18); 
+    padding:14px;
+    margin: 8px auto;
+    font-family: 'Droid Serif', serif;
+    font-weight: 400;
+}
+
+
+.benchmark_imgs{
+    display: block;
+    margin: auto;
+}
+
+.product_link,.product_link:hover,.product_link:active,.product_link:focus{
+    color:#089B58; 
+     font-family: 'Droid Serif', serif;
+}
+
+/*End of our benchmark*/
+
+
+/* CSS for OUR Processes*/
+#our_processes_div{
+    background-color: #DCDDDE;
+/*    margin: 16px auto;*/
+     font-family: Roboto, sans-serif;
+}
+
+#our_processes_heading{
+font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;
+font-family: 'Arima Madurai', cursive;
+}
+
+#our_benchmark_div p{
+  text-align: center;
+    font-family: 'Droid Serif', serif;
+    color:  rgba(0, 0, 0, 0.87);
+    
+}
+
+.our_process_circle{
+       font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    display:inline-block;
+    color:  rgba(0, 0, 0, 0.87);
+        width: 110px;
+    height: 120px;
+/*    float: none;*/
+    margin: 8px auto;
+/*    border: 1px solid  rgba(0, 0, 0, 0.87);*/
+    padding-top: 32px;
+  border-radius: 50%; 
+    text-align: center;
+        background-color: white;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18); 
+    
+}
+
+.our_process_circle:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.18); 
+    
+}
+
+.pro_circle_label{
+           font-family: 'Droid Serif', serif;
+    font-weight: 400;
+}
+
+
+/*End of OUR Processes*/
+
+
+/* CSS for foodsafety section*/
+#food_safety_div{
+    background-color: #DCDDDE;
+/*    margin: 16px auto; */
+     font-family: Roboto, sans-serif;
+}
+
+.food_safety_img{
+    display: block;
+    margin: auto;
+}
+
+.food_safety_img1{
+/*   display: block;*/
+    margin:8px auto;
+    height: 220px;
+    width: 100%;
+}
+
+
+#food_safety_desc_div{
+/*
+       background-color: #FFFEF2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18); 
+*/
+    padding: 16px;
+    margin: 8px;
+    color:  rgba(0, 0, 0, 0.87); 
+     font-family: Roboto, sans-serif;
+}
+
+#food_safety_desc_div p{
+/*         font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+#food_safety_heading{
+  font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center; 
+font-family: 'Arima Madurai', cursive;
+}
+
+#food_safety_subheading{
+    text-align: center;
+font-family: 'Arima Madurai', cursive;
+}
+/*End of foodsatefy section*/
+
+
+/*CSS for our proudest moments*/
+
+
+
+#proudest_moments_div{
+    background-color: #DCDDDE;
+/*    margin: 16px auto;*/
+     padding: 16px;
+/*        border: 1px solid  rgba(0, 0, 0, 0.87);*/
+     font-family: Roboto, sans-serif;
+}
+
+
+.proudest_moments_img{
+    display: block;
+    margin: auto;
+     margin-top: 16px;
+}
+#proudest_moments_desc_div{
+          background-color: #ffffff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18); 
+    color:  rgba(0, 0, 0, 0.87);  
+    padding: 16px;
+   font-family: 'Droid Serif', serif;
+margin: 8px;
+}
+#proudest_moments_desc_div p{
+    color: rgba(0, 0, 0, 0.73);
+    text-align: justify;
+/*     font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+}
+
+
+#prod_moment_heading{
+  font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;
+font-family: 'Arima Madurai', cursive;
+}
+#pro_moments_list{
+    padding-left: 0px;
+}
+
+.pro_moments_img{
+    display: block;
+      margin: auto;
+}
+
+#pro_moments_list>li{
+  list-style: none;
+  color: rgba(178, 144, 47, 0.87);
+/*    font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    font-size: 16px;
+}
+
+
+/*End of our proudest moments*/
+
+/*CSS for gallery*/
+#global_div{
+           background-color: #DCDDDE;
+/*    margin: 16px auto; */
+    color: white;
+    padding: 16px; 
+}
+
+#global_div_heading{
+      font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;
+ font-family: 'Arima Madurai', cursive;
+}
+
+.global_img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.global_div_para{
+/*         font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+    color:  rgba(0, 0, 0, 0.87);
+}
+/*End of css for gallery*/
+
+
+/*CSS for gallery section*/
+
+
+#gallery_div{
+        background-color: #DCDDDE;
+/*    margin: 16px auto; */
+    color: white;
+    padding: 16px;
+}
+
+#gallery_heading{
+font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;  
+     font-family: 'Arima Madurai', cursive;
+}
+
+#gallery_div img{
+     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.18); 
+    margin: 8px;
+}
+
+#gallery_div img:focus{
+     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.18); 
+}
+/*End of gallery*/
+
+
+/*CSS for Contact Us */
+#contactus_div{
+    background-color: #DCDDDE;
+/*    margin: 16px auto; */
+    color: white; 
+    padding: 16px;
+/*     font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+}
+
+.contactus_img{
+    display: block;
+    margin: auto;
+}
+
+#contact_div_heading{
+       font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;   
+   font-family: 'Arima Madurai', cursive;
+}
+
+.contact_para {
+/*      font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    color:  rgba(0, 0, 0, 0.87);
+    
+ 
+}
+/*End of Contact*/
+
+/*CSS For Equiry Form*/
+#equiryform_div{
+    background-color: #DCDDDE;
+/*    margin: 16px auto; */
+    color: white; 
+    padding: 16px;
+     font-family: Roboto, sans-serif;
+}
+
+#equiryform_div_heading{
+   font-size:24px; 
+    text-transform: uppercase;
+    color: #00A651;
+    text-align: center;   
+font-family: 'Arima Madurai', cursive;
+}
+
+#equiryform_div label{
+    font-size:16px; 
+    color: rgba(0, 0, 0, 0.69);
+/*    font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    text-align: left;
+    font-weight: 400;
+}
+
+
+#equiryform_div .form-control{
+    font-size:16px; 
+    color: rgba(0, 0, 0, 0.69);
+/*    font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    font-weight: 400;
+    margin: 4px auto;
+
+}
+
+#equiry_btn{
+    font-size:16px; 
+      font-family: 'Droid Serif', serif;
+    margin: 8px auto;
+}
+
+/*End of Equiry Form*/
+
+
+/*Css for copyright*/
+.copyright1{
+/*  	background: #161616;*/
+    background-color: #DCDDDE;
+	padding: 16px 0;  
+}
+
+#copyright_para{
+/*   font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+}
+
+#copyright_para a{
+/*   font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+    text-align: center;
+    font-size: 14px;
+    color: #6188AE;
+}
+
+#copyright_para a:hover{
+    color: #6ba2d8;
+}
+
+
+
+
+
+/*End of copyright*/
+
+.navigation1 {
+    bottom: 200px;
+    z-index:1;
+    float: left;
+    width: auto;
+    position: fixed;
+    left: -34px;
+}
+
+#side-nav {
+    float: left;
+    margin-top: 80px;
+}
+
+#side-nav li {
+    list-style: none;
+
+}
+
+#side-nav li a {
+    display: block;
+    color: #fff;
+    padding: 5px;
+}
+
+#side-nav li a img {
+    width: 70px;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+#side-nav li a img:hover {
+    width: auto;
+    -webkit-transition: width 0.1s;
+    transition: width 0.1s;
+}
+
+
+.modal-content{
+    background-color: #ffffff;
+}
+.modal-title{
+ font-family: 'Droid Serif', serif;
+    color: white;
+}
+
+.btn1{
+ font-family: 'Droid Serif', serif;
+}
+
+.model_img{
+    display: block;
+    margin: auto;
+}
+
+.model_links{
+    text-align: center;
+}
+
+@media(max-width:992px)
+{
+               body {
+/*      min-height: 2000px;*/
+/*  padding-top: 50px;*/
+    }
+    
+    #banner_img1{
+
+    width: 100%;
+      height:100%;
+ 
+}
+    
+  
+    #logo2{
+    font-size: 32px;
+    color: #00A651; 
+        
+    }
+    
+    .contact_para {
+        margin-top: 16px;
+ 
+}
+/*
+#banner_home{
+    background-color: #FFFEF2;
+    height: 590px;
+
+}
+*/
+    
+               #side-nav {
+display: none;
+} 
+
+       
+}
+   
+
+
+@media(max-width:767px)
+{
+    
+ #home{
+/*
+    background-image: url(../images/svg/logo.svg);
+     background-size:contain;
+*/
+
+}    
+    
+
+
+}
+@media(min-width:992px)
+{
+
+#vision_heading{
+   font-size:44px; 
+}
+    
+    #about_heading{
+   font-size:44px; 
+}
+    
+#our_benchmark_heading{
+    font-size:44px; 
+}
+    
+    #our_processes_heading{
+    font-size:44px; 
+}
+    
+    #food_safety_heading{
+    font-size:44px; 
+}
+    #prod_moment_heading{
+    font-size:44px; 
+}
+    
+    #gallery_heading{
+      font-size:44px; 
+}
+    
+    #contact_div_heading{
+        font-size:44px; 
+}
+    
+    #global_div_heading{
+        font-size: 44px;
+    }
+    #equiryform_div_heading{
+        font-size: 44px;
+    }
+    
+/*
+    #main_nav{
+        display: none;
+    }
+    
+*/
+    .food_safety_img{
+    margin-top:48px;
+}
+    
+    .benchmark_pro_div{
+    height: 400px;
+}
+    
+    .vision_desc{
+    margin: 0px;
+    
+}
+    
+    .vision_desc_para{
+    font-size: 16px;
+}
+    #about_para1{
+        font-size: 16px;
+        
+        }
+    
+    #process_img{
+    height: 480px;
+}
+
+}
+
+
+@media screen and (min-width:100px)and (max-width: 500px) {
+  
+ 
+    #banner_img1{
+    
+    display: none;
+    }
+    #banner_img{
+    display:none;
+    }
+    #banner_img_mobile{
+        display:block;
+    }
+   
+}
+
+@media screen and (max-width:1000px) and (min-width:701px){
+    
+         #banner_img{
+display: none;
+}   
+    #banner_img_mobile{
+     height: 100%;
+    display:block;
+          margin: 0px auto;
+    }
+    #banner_img1{
+        display: none;
+   
+      height: 100%;
+    margin: auto;
+    }
+  
+   #pross1{
+   margin-top:5%;
+   
+   } 
+     #pross2{
+   margin-top:5%;
+   
+   } 
+    
+}
+
+@media screen and (min-width:1001px){
+    
+    #banner_img1{
+    
+    display: none;
+    }
+    #banner_img{
+    display:none;
+    }
+    #banner_img_mobile{
+        display: block;
+         height: 100%;
+        margin: 0px auto;
+    }
+    #pross1{
+   margin-top:2.5%;
+   
+   } 
+     #pross2{
+   margin-top:2.5%;
+   
+   } 
+}
+@media screen and (max-width:700px){
+    #banner_img1{
+    
+    display: none;
+    }
+    #banner_img{
+    display:none;
+    }
+    #banner_img_mobile{
+        display: block;
+        height: 100%;
+    }
+
+
+
+}
+.card1{
+background-color: #fff;
+box-shadow: 0px 1px 1px;
+color: rgba(0, 0, 0, 0.87);
+padding:2%;
+/*font-family: Roboto, sans-serif;*/
+     font-family: 'Droid Serif', serif;
+
+}
+
+.card1 p{
+     font-family: 'Droid Serif', serif;
+/* font-family: Roboto, sans-serif;*/
+    font-size: 16px;
+}
+
+.modal-title{
+ color:  rgba(0, 0, 0, 0.87);  
+     font-family: 'Droid Serif', serif;
+}
+
+#home_icon,#home_icon2{
+    font-size: 34px;
+    color: #00A651;
+}
+#home_icon2{
+ margin-top: 8px;   
+}
+
