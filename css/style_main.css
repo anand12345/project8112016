@@ -543,7 +543,10 @@ font-family: 'Arima Madurai', cursive;
 }
 
 
+    #process_img{
 
+    padding-top: 16px;
+}
 
 
 /*End of copyright*/
@@ -606,6 +609,9 @@ font-family: 'Arima Madurai', cursive;
 .model_links{
     text-align: center;
 }
+
+
+
 
 @media(max-width:992px)
 {
@@ -732,7 +738,8 @@ display: none;
         }
     
     #process_img{
-    height: 480px;
+    height: 530px;
+    padding: 16px;
 }
 
 }
