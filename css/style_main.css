@@ -545,7 +545,8 @@ font-family: 'Arima Madurai', cursive;
 
     #process_img{
 
-    padding-top: 16px;
+/*    padding-top: 16px;*/
+        margin: 16px auto;
 }
 
 
@@ -738,7 +739,7 @@ display: none;
         }
     
     #process_img{
-    height: 530px;
+    height: 580px;
     padding: 16px;
 }
 
@@ -780,6 +781,10 @@ display: none;
   
    #pross1{
    margin-top:5%;
+/*
+       margin: 16px auto;
+       padding: 16px;
+*/
    
    } 
      #pross2{
